@@ -13,13 +13,13 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 800,
+        duration: 1000,
         autoplay: false
     })
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 1000,
+        duration: 100,
         begin: function(anim) {
             window.scrollTo(0, 0);
         }
@@ -27,6 +27,7 @@
     .add({
         targets: '#preloader',
         opacity: 0,
+        duration: 200,
         complete: function(anim) {
             document.querySelector("#preloader").style.visibility = "hidden";
             document.querySelector("#preloader").style.display = "none";
@@ -43,11 +44,11 @@
         duration: 1000,
     })
     .add({
-        targets: ['.animate-on-load'],
-        translateY: [100, 0],
-        opacity: [0, 1],
-        delay: anime.stagger(400)
-    });
+    targets: ['.animate-on-load'],
+    translateY: [100, 0],
+    opacity: [0, 1],
+    delay: anime.stagger(100)
+}, '-=1600')
 
 
 

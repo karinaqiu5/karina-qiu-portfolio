@@ -3912,3 +3912,54 @@ img.u-pull-left {
     width: 3rem;
     margin-right:5px;
 }
+
+/* Projects */
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 24px;
+}
+
+.project-item {
+    border-top: 1px solid rgba(0,0,0,0.15);
+    padding-top: 28px;
+}
+
+.project-item__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.project-github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    border: 1px solid currentColor;
+    padding: 6px 14px;
+    border-radius: 3px;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+    flex-shrink: 0;
+}
+
+.project-github-link:hover {
+    opacity: 0.6;
+}
+
+.project-item__desc ul {
+    margin-top: 12px;
+    padding-left: 18px;}
+
+.skill-bars--compact li {
+    margin-bottom: var(--vspace-1_25) !important;
+}
+
+.skill-bars--compact li strong {
+    font-size: calc(var(--text-size) * 0.85) !important;
+}
