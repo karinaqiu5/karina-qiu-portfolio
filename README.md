@@ -27,6 +27,10 @@ Javascript Files:
  - Prism.js (https://prismjs.com/)
  - Anime JS (https://animejs.com/)
 
+## Live Site
+
+[karinaqiu5.github.io](https://karinaqiu5.github.io)
+
 ## License
 This website uses a free template from StyleShout. Credit is included in the footer of the website as required by the template license.
 
