@@ -29,7 +29,7 @@ Javascript Files:
 
 ## Live Site
 
-[karinaqiu5.github.io](https://karinaqiu5.github.io)
+[karinaqiu5.github.io/karina-qiu-portfolio/](https://karinaqiu5.github.io/karina-qiu-portfolio/)
 
 ## License
 This website uses a free template from StyleShout. Credit is included in the footer of the website as required by the template license.
